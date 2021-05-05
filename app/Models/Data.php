@@ -9,7 +9,7 @@ class Data extends Model
 {
     use HasFactory;
     protected $fillable = [
-        'nama',
+        'name',
         'telp',
         'alamat'
     ];
